@@ -1,0 +1,103 @@
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Брелок карт лояльности</string>
+    <string name="action_add">Добавить</string>
+
+    <string name="noGiftCards">На данный момент у Вас нет ни одной карты лояльности. Нажмите на кнопку «+» (плюс) вверху, чтобы добавить первую карту.\n\n «Брелок карт лояльности» позволит Вам хранить скидочные карты в Вашем телефоне, чтобы они всегда были под рукой.</string>
+
+    <string name="storeName">Организация</string>
+    <string name="note">Заметка</string>
+    <string name="cardId">ID карты</string>
+    <string name="barcodeType">Тип штрих-кода</string>
+
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="capture">Capture Card</string>
+    <string name="enterCard">Enter Card</string>
+    <string name="editCard">Редактировать карточку</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="lockScreen">Block Rotation</string>
+    <string name="unlockScreen">Unblock Rotation</string>
+    <string name="deleteTitle">Удалить карточку лояльности</string>
+    <string name="deleteConfirmation">Вы действительно хотите удалить эту карту?</string>
+    <string name="ok">OK</string>
+    <string name="copy_to_clipboard">Скопировать идентификатор в буфер обмена</string>
+    <string name="sendLabel">Отправить&#8230;</string>
+    <string name="addedShortcut">Карта добавлена на главный экран</string>
+
+    <string name="editCardTitle">Редактировать карточку лояльности</string>
+    <string name="addCardTitle">Add Loyalty Card</string>
+    <string name="viewCardTitle">View Loyalty Card</string>
+    <string name="scanCardBarcode">Scan Card\'s Barcode</string>
+    <string name="cardShortcut">Card Shortcut</string>
+    <string name="noCardsMessage">There are no cards, add one first</string>
+
+    <string name="barcodeImageDescription">Image of card\'s barcode</string>
+
+    <string name="noStoreError">No Store entered</string>
+    <string name="noCardIdError">No Card ID entered</string>
+    <string name="noCardExistsError">Could not lookup loyalty card</string>
+
+    <string name="cardIdFormat">%1$s: %2$s</string>
+    <string name="storeNameAndNoteFormat" translatable="false">%1$s - %2$s</string>
+
+    <string name="importExport">Import/Export</string>
+    <string name="importName">Import</string>
+    <string name="exportName">Export</string>
+    <string name="importExportHelp">Backed up data can allow you to move your cards to another device.</string>
+    <string name="importedFrom">Imported from: %1$s</string>
+    <string name="exportedTo">Exported to: %1$s</string>
+    <string name="fileMissing">File missing: %1$s</string>
+    <string name="importSuccessfulTitle">Import successful</string>
+    <string name="importFailedTitle">Import failed</string>
+    <string name="importFailed">Failed to import: %1$s</string>
+    <string name="exportSuccessfulTitle">Export successful</string>
+    <string name="exportFailedTitle">Export failed</string>
+    <string name="exportFailed">Failed to export: %1$s</string>
+    <string name="importing">Importing&#8230;</string>
+    <string name="exporting">Exporting&#8230;</string>
+    <string name="noExternalStoragePermissionError">Unable to import or export cards without the external storage permission</string>
+    <string name="exportOptionExplanation">Data is written to the top directory in external storage.</string>
+    <string name="importOptionFilesystemTitle">Import from filesystem</string>
+    <string name="importOptionFilesystemExplanation">Choose a specific file from the filesystem.</string>
+    <string name="importOptionFilesystemButton">From filesystem</string>
+    <string name="importOptionApplicationTitle">Use external application</string>
+    <string name="importOptionApplicationExplanation">Use an external application like Dropbox, Google Drive, or your favorite file manager to open a file.</string>
+    <string name="importOptionApplicationButton">Use external application</string>
+    <string name="importOptionFixedTitle">Import from export location</string>
+    <string name="importOptionFixedExplanation">Import from the same location on the filesystem that is written to on export.</string>
+    <string name="importOptionFixedButton">Use export location</string>
+
+    <string name="about">About</string>
+    <string name="app_copyright_fmt">Copyright 2016-<xliff:g>%d</xliff:g> Branden Archer</string>
+    <string name="app_license">Licensed under the GPLv3.</string>
+    <string name="about_title_fmt">About <xliff:g id="app_name">%s</xliff:g></string>
+    <string name="debug_version_fmt">Version: <xliff:g id="version">%s</xliff:g></string>
+    <string name="app_revision_fmt">Revision Information: <xliff:g id="app_revision_url">%s</xliff:g></string>
+    <string name="app_libraries"><xliff:g id="app_name">%s</xliff:g> uses the following third-party libraries: <xliff:g id="app_libraries_list">%s</xliff:g></string>
+    <string name="app_resources"><xliff:g id="app_name">%s</xliff:g> uses the following third-party resources: <xliff:g id="app_resources_list">%s</xliff:g></string>
+
+    <string name="selectBarcodeTitle">Select Barcode</string>
+    <string name="enterBarcodeInstructions">Enter the barcode value then select the image which represents the barcode you want to use</string>
+
+    <string name="copy_to_clipboard_toast">Идентификатор карты скопирован в буфер обмена</string>
+
+    <string name="thumbnailDescription">Иконка карты</string>
+
+    <string name="startIntro">Введение</string>
+    <string name="intro1Title">Welcome to Loyalty Card Keychain\n</string>
+    <string name="intro1Description">Manage your barcode-based store/loyalty cards on your phone!\n\n</string>
+    <string name="intro2Title">Adding Cards\n</string>
+    <string name="intro2Description">Add a new card by touching the plus from the card list.\n\n</string>
+    <string name="intro3Title">Adding Cards\n</string>
+    <string name="intro3Description">To add the barcode, either capture with the camera or type in manually.\n\n</string>
+    <string name="intro4Title">Показать карточку\n</string>
+    <string name="intro4Description">To display a card, click on the store name from the main screen\n\n</string>
+    <string name="intro5Title">Резервное копирование\n</string>
+    <string name="intro5Description">Вы можете сохранить карты во внешнее хранилище. Чтобы экспортировать или импортировать данные карты, нажмите «Импорт / Экспорт» в меню на главной странице.\n\n</string>
+    <string name="intro6Title">Обратная связь\n</string>
+    <string name="intro6Description">Это бесплатное приложение, не обремененное рекламой и с открытым исходным кодом. Подробнее см. в разделе «О программе» в меню на главной странице.\n\nПожалуйста, оставьте отзыв в магазине приложений! :)</string>
+</resources>
