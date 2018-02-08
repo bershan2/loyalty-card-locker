@@ -13,8 +13,8 @@
 
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
-    <string name="capture">Capture Card</string>
-    <string name="enterCard">Enter Card</string>
+    <string name="capture">Просканировать карту</string>
+    <string name="enterCard">Ввести вручную</string>
     <string name="editCard">Редактировать карточку</string>
     <string name="edit">Редактировать</string>
     <string name="delete">Удалить</string>
@@ -48,17 +48,17 @@
     <string name="importName">Import</string>
     <string name="exportName">Export</string>
     <string name="importExportHelp">Backed up data can allow you to move your cards to another device.</string>
-    <string name="importedFrom">Imported from: %1$s</string>
-    <string name="exportedTo">Exported to: %1$s</string>
-    <string name="fileMissing">File missing: %1$s</string>
+    <string name="importedFrom">Импортировано из: %1$s</string>
+    <string name="exportedTo">Экспортировано в: %1$s</string>
+    <string name="fileMissing">Файл не найден: %1$s</string>
     <string name="importSuccessfulTitle">Import successful</string>
     <string name="importFailedTitle">Import failed</string>
     <string name="importFailed">Failed to import: %1$s</string>
-    <string name="exportSuccessfulTitle">Export successful</string>
-    <string name="exportFailedTitle">Export failed</string>
-    <string name="exportFailed">Failed to export: %1$s</string>
-    <string name="importing">Importing&#8230;</string>
-    <string name="exporting">Exporting&#8230;</string>
+    <string name="exportSuccessfulTitle">Экспортирование успешно завершено.</string>
+    <string name="exportFailedTitle">Не удалось выполнить экспорт.</string>
+    <string name="exportFailed">Не удалось экспортировать: %1$s</string>
+    <string name="importing">Импортирование&#8230;</string>
+    <string name="exporting">Сохранение&#8230;</string>
     <string name="noExternalStoragePermissionError">Unable to import or export cards without the external storage permission</string>
     <string name="exportOptionExplanation">Data is written to the top directory in external storage.</string>
     <string name="importOptionFilesystemTitle">Import from filesystem</string>
